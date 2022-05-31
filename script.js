@@ -12,7 +12,7 @@ let generateRandomNumber = Math.floor(Math.random() * 6);
 console.log(generateRandomNumber);
 let secondiRimanenti = 30;
 let divlista= document.getElementById('listanumeri');
-document.getElementById('listanumeri');
+
 
 // Genero cinque numeri casuali nella pagina html
 for (let i = 0; i<5; i++){
@@ -21,7 +21,8 @@ for (let i = 0; i<5; i++){
     generateRandomNumber.innerText = (Math.floor(Math.random() * 6));
     document.body.append(generateRandomNumber);
     if(secondiRimanenti === 0){
-        //generateRandomNumber === "" ;
+        document.getElementById('listanumeri');
+        
     }
 }
 
