@@ -17,6 +17,9 @@ for (let i = 0; i<5; i++){
     generateRandomNumber = document.createElement("container");
     generateRandomNumber.innerText = (Math.floor(Math.random() * 6));
     document.body.append(generateRandomNumber);
+    if(secondiRimanenti === 0){
+        //generateRandomNumber === ;
+    }
 }
 
 // Timer 30 secondi
